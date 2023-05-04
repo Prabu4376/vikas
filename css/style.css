@@ -392,11 +392,37 @@ ul li{
 
 /* --- /// Banner section /// --- */
 .banner_section{
-	background: url("../images/banner.jpg") no-repeat center;
+/*	background: url("../images/banner.jpg") no-repeat center;*/
 	background-size: cover;
 	height: 585px;
 }
 
+
+.carousel-control-next{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    top: 60%;
+    right: 50px;
+    opacity: 1;
+}
+
+.carousel-control-prev{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    top: 60%;
+    left: 50px;
+    opacity: 1;
+}
+
+.carousel-control-next i{
+    font-size: 20px;
+}
+
+.carousel-control-prev i{
+    font-size: 20px;
+}
 
 /* --- /// Sections style /// -- */
 .page_section{
@@ -949,6 +975,7 @@ ul li{
 	position: relative;
 	margin-bottom: 10px;
     overflow: hidden;
+    height: 200px;
 }
 .hm_projects_img img{
 	width: 100%;
@@ -1114,6 +1141,7 @@ ul li{
     padding-bottom: 24px;
     position: relative;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 .footer_list h3:after{
     background: #ffffff none repeat scroll 0 0;
