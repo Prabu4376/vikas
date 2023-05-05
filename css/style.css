@@ -544,7 +544,7 @@ ul li{
 }
 .hm_list_service_text{
 	position: relative;
-    padding-left: 60px;
+    padding-left: 0px;
     position: relative;
     padding-top: 30px;
 }
@@ -562,6 +562,7 @@ ul li{
     padding: 12px 0;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
+    display: none;
 }
 .hm_list_service_text .hm_service_cont{
 	padding-left: 20px;
@@ -1104,6 +1105,14 @@ ul li{
 
 }
 
+.projects_list{
+    position: relative;
+}
+
+.rt_img_cons img{
+    width: 100%;
+}
+
 /* --- /// Footer section /// --- */
 .footer_sec{
     background: #292929;
@@ -1153,8 +1162,6 @@ ul li{
     width: 70px;
 }
 .footer_menus ul li{
-    float: left;
-    width: 50%;
     padding-bottom: 10px;
 }
 .footer_menus ul li a{
@@ -1163,9 +1170,9 @@ ul li{
     transition: all 500ms ease;
 
 }
-.footer_menus ul li:nth-child(even){
+/*.footer_menus ul li:nth-child(even){
     padding-left: 15px;
-}
+}*/
 .footer_menus ul li a:hover{
     text-decoration: underline;
     color: #fdc716;
