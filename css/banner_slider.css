@@ -131,7 +131,7 @@ p{padding:10px}*/
     left: 4px;
     top: 0px;
     width: 96%;
-    background: #fdc716;
+    background: #009933;
     height: 25px;
     z-index: -1;
     transform: skewX(-16deg);
@@ -167,9 +167,9 @@ p{padding:10px}*/
 .banner_slid_carousal .carousel-caption p a.link_btn{
     margin-top: 40px;
     width: auto;
-    border: 2px solid #fdc716;
+    border: 2px solid #009933;
     color: #ffffff;
-    background: #fdc716;
+    background: #009933;
     text-decoration: none;
     border-radius: 0px;
     display: inline-block;
@@ -190,7 +190,7 @@ p{padding:10px}*/
 .banner_slid_carousal .carousel-caption p a.link_btn:hover{
   background: #292929;
     color: #fff;
-    border: 2px solid #fdc716;
+    border: 2px solid #009933;
 }
 
 .banner_slid_carousal .carousel-control{
