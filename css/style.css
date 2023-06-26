@@ -1365,16 +1365,15 @@ ul li{
 }
 #banner-slide .item a{
     text-align: center;
-    height: 105px;
-    padding: 35px 0;
-    border:dashed 1px #ccc;
+    height: 103px;
+    border:solid 1px #ccc;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
 }
  
 #banner-slide .owl-item img{
     display: inline-block;
-    width: 70%;
+    width: 100%;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
 }
@@ -1944,10 +1943,10 @@ ul li{
     top: 7px;
     left: 15px;
 }
-.cover_img{
+/* .cover_img{
     height: 400px;
     overflow: hidden;
-}
+} */
 
 .page_lt_sec {
     position: sticky;
